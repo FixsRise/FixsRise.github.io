@@ -1,0 +1,97 @@
+body{
+    
+    font-size: 30px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: white;
+    background: rgb(180,155,58);
+    background: linear-gradient(90deg, rgba(180,155,58,1) 0%, rgba(253,60,29,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+
+.header{
+    
+    height: 50px;
+    
+    margin-bottom: 10px;
+    
+}
+
+.inner-header{
+    
+    font-size: 25px;
+    
+    
+}
+
+.headfoot{
+    
+    min-height: 500px;
+
+    margin-bottom: 140px;  
+    
+}
+
+.inner-headfoot{
+    
+    
+    
+}
+
+.img1{
+    
+    
+    
+    margin: 100px 140px;
+    float:left;
+    width: 500px;
+    height: 500px;
+    
+    
+    
+}
+
+.hi{
+    
+   margin: 130px 290px;
+   float:right;
+   padding: 123px;
+    
+}
+
+.footer{
+   
+      
+  min-height: 500px;
+  
+    
+}
+
+.inner-footer{
+    
+    
+    
+}
+
+.textp{
+    
+    margin: 70px -500px;
+    float: left;
+    
+}
+
+.textbr{
+    
+    
+    margin: 20px 400px;
+    
+}
+
+.imgzapovit{
+    
+    
+   margin: -100px 1150px;
+   width: 500px;
+   height: 500px;
+   box-shadow: 0 0 15px;
+    
+}
