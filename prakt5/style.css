@@ -1,0 +1,51 @@
+body {
+    
+    
+  font-family: 'Sansita Swashed', cursive;  
+  
+    
+    
+}
+
+
+form, br{
+    
+    margin: auto 15px;
+    font-size: 30px;
+    
+    
+}
+
+
+
+.answer{
+  
+  margin: 15px 5px;
+  font-size: 30px;  
+    
+    
+}
+
+textarea{
+    
+    margin: -5px 10px;
+    
+}
+
+
+
+.hi{
+    
+    
+    margin: 10px 0px;
+    
+
+    
+}
+
+.textlast{
+    
+    
+    text-align: center;
+    
+}

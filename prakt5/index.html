@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+    <title>Практична робота #5</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    
+    
+    
+    <h1>Тестування</h1>
+    
+    <form method= "post" name = "tests" > 1) 2 + 2 = ? <br>
+    <div class="answer">
+    <input type="radio" name="one" value="1"> 5<br>
+    <input type="radio" name="one" value="2"> 4<br>
+    <input type="radio" name="one" value="3"> 3<br>    
+    </div>  
+    <br> 2) 3 + 3 = ? <br>
+    <div class="answer">
+    <input type="radio" name="two" value="1"> 6<br>
+    <input type="radio" name="two" value="2"> 5<br>
+    <input type="radio" name="two" value="3"> 7<br>    
+    </div>
+    <br> 3) 4 + 4 = ? <br>   
+    <div class="answer">
+    <input type="radio" name="three" value="1"> 7<br>
+    <input type="radio" name="three" value="2"> 9<br>
+    <input type="radio" name="three" value="3"> 8<br>    
+    </div>     
+    <br> 4) 5 + 5 = ? <br>  
+    <div class="answer">
+    <input type="radio" name="four" value="1"> 12<br>
+    <input type="radio" name="four" value="2"> 9<br>
+    <input type="radio" name="four" value="3"> 55<br>    
+    <input type="radio" name="four" value="4"> 10<br>  
+    <input type="radio" name="four" value="5"> 32<br>        
+    </div>   
+    <br> 5) 6 + 6 = ? <br> 
+    <div class="answer">
+    <input type="radio" name="five" value="1"> 15<br>
+    <input type="radio" name="five" value="2"> 22<br>
+    <input type="radio" name="five" value="3"> 14<br>  
+    <input type="radio" name="five" value="4"> 16<br>
+    <input type="radio" name="five" value="5"> 12<br>  
+    </div>  
+    <br> 6) 2 + 2 = ? , 4 + 4 = ? , 6 + 6 = ? <br> 
+    <div class="answer">
+    <input type="checkbox" name="six" value="1"> 4<br>
+    <input type="checkbox" name="six" value="2"> 8<br>
+    <input type="checkbox" name="six" value="3"> 12<br>  
+    <input type="checkbox" name="six" value="4"> Усі відповіді неправильні <br>  
+    </div>
+    <br> 7) Числа > 2 <br> 
+    <div class="answer">
+    <input type="checkbox" name="seven" value="1"> 1<br>
+    <input type="checkbox" name="seven" value="2"> 3<br>
+    <input type="checkbox" name="seven" value="3"> 4<br>    
+    </div>            
+    <input name="check" onclick="perevirka (this.form)" TYPE="button" value="Кількість правильних відповідей">    
+    <textarea cols="2" name="druk" rows="1"></textarea>
+    <INPUT type="reset" value="Оновити форму">  
+     
+     
+    <div class="data">
+    <br> Дата  <textarea type="text" name="data1" rows="1" value="1"></textarea>       
+    <input name="check2" onclick=" showMessage() " type="button" value=" Відіслати">
+    </div>   
+    <br> Остання введена дата<div class="hi">
+    <textarea  cols="20" name="data" rows="1" class="textlast" ></textarea> 
+    </div>      
+        
+        
+        
+        
+        
+        
+        
+    </form>
+    
+    
+    
+    
+</body>
+</html>
