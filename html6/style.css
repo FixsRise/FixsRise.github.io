@@ -1,0 +1,69 @@
+
+body{
+    
+background: url(background.png)
+;    
+}
+
+a{
+    
+    text-decoration: none;
+    color: red;
+    
+    
+}
+
+a:hover{
+    
+    color: rgba(252,70,107,1);
+    
+}
+
+.logo{
+    
+    
+    color: #ffff00;
+    position: absolute;
+    right: 720px;
+    top: 40px;
+    font-size: 90px;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+.nav{
+    
+    
+    position: absolute;
+    right: 820px;
+    top: 165px;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+    
+}
+
+
+
+
+.container{
+    
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    background: orange;
+    max-height: 100%;
+    height: 1200px;
+    float: inherit;
+    text-align: center;
+    
+}
+
+*{
+    
+    box-sizing: border-box;
+    
+}
