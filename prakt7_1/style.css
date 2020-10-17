@@ -1,0 +1,125 @@
+body{
+    
+    font-family: 'Oswald', sans-serif; 
+    padding 0;
+    margin: auto 0;
+    background: url(assets/background2.png);
+    
+}
+
+nav{
+    
+    font-family: 'Oswald', sans-serif;
+    word-spacing: 250px;
+    padding: 6px;
+    
+}
+
+p{
+    
+  font-family: 'Oswald', sans-serif;  
+  font-size: 40px;
+  margin: 0;
+    
+}
+
+a{
+    
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    
+    text-decoration: none;
+    color: ghostwhite;
+    
+}
+
+.container{
+    
+    text-align: center;
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    height: 1200px;
+    background: orange;
+    justify-content: center;
+    
+    
+}
+
+.header{
+    
+    height: 250px;
+    background: red;
+    
+}
+
+.underheader{
+    
+    height: 40px;
+    background: #E53F09;
+    
+    
+}
+
+.underunderheader{
+    
+    
+  background: white;
+  margin: 20 75px;
+
+}
+
+.content{
+    
+    
+    background: white;
+    height: 910px;
+    
+    
+}
+
+.inner_content{
+    
+    
+    height: 700px;
+    width: 600px;
+    float: right;
+    
+    
+}
+.inner_content2{
+    
+    
+    height: 700px;
+    width: 600px;
+    float: right;
+    
+}
+
+.footer{
+    position: absolute;
+    height: 20px;
+}
+
+
+
+button{
+    
+    cursor: pointer;
+    
+    height: 20px;
+    
+    
+}
+
+   table {
+    width: 300px; /* Ширина таблицы */
+    border: 1px solid black; /* Рамка вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+   }
+   td {
+    text-align: center; /* Выравниваем текст по центру ячейки */
+   }

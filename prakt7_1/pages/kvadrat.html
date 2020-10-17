@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Геометричний калькулятор</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  
+  
+   <script src="../script.js"></script>
+    
+   
+   <div class="wrapper">
+       
+       <div class="container">
+           
+           <div class="header">
+               <img src="../assets/header.png" style="width: 1200px; height: 250px;" alt="">
+           </div>
+           
+           <div class="underheader">
+               
+               <nav>
+                  
+                   <a href="../index.html" style="word-spacing: 1px;">Головна сторінка</a>
+                   <a href="kvadrat.html">Квадрат</a>
+                   <a href="triangle.html">Трикутник</a>
+
+                   
+               </nav>
+               
+           </div>
+           <div class="content">
+               
+               
+                <p style="font-size: 25px ; padding: 25px;">Квадрат — чотирикутник, у якого всі сторони рівні і всі кути прямі</p>  
+                   
+                               <p 
+                style=" margin: 0; padding: 0; font-size: 20px "
+                >
+               <br>Якщо вам погано видно калькулятор, перегорніть вниз
+               <br> ↓    
+                   
+               <br>
+               <img src="../assets/square.png" alt="" style="padding: 60px; width: 300px; height: 250px;">
+               
+               
+               
+               <h1 style="margin: auto 0">Квадрат</h1>
+               <div class="table">
+               
+               <table border="2" >
+                   
+                   <tr>      
+                       <td >                      
+                               <label for="">Сторона: </label>
+                               <input type="number" id="a1" value="" placeholder="введіть сторону α">
+                               
+                               
+                             
+        
+                       </td>   
+                       
+                        <td rowspan="3" colspan="6" >
+                            <button style="width: 125px" onclick="plosha()" >Площа</button> 
+                            
+                            <button onclick="perimetr()" style="width: 125px">Периметр</button> 
+                            
+                            <button onclick="diagonal()" style="width: 125px">Діагональ</button> 
+                            
+                            <button style="width: 125px" onclick="radius1()" >Радіус впис.кола</button> 
+                            <button onclick="radius2()" style="width: 125px" >Радіус опис.кола</button> 
+                        </td>
+                                                                                                                                                                                    
+                        <td rowspan="3" colspan="2" >
+                            
+                            <label for="">Формула:</label>
+                            <input type="text" value="" id="f1" readonly style=" width: 60px; height: 60px; text-align: center;">
+                            
+                        </td> 
+                    </tr>
+                   
+                    <tr>
+                        
+                       <td>
+                           
+                           <label for="">Результат: </label>
+                           <input type="text" value="" id="r1" readonly>
+                           
+                       </td> 
+                        
+                    </tr>
+                    
+                    <td>
+                        
+                        <input type="button" onclick="clearText()" value="Очистити">
+                        
+                    </td>
+                   
+               </table>
+               
+               </div>
+               
+               
+           </div>
+           
+                      <div class="footer">
+               
+               <p style="font-size: 25px;">© Created by Dima Kalinin aka FixsRise</p>
+               
+           </div>
+           
+       </div>
+       
+       
+   </div>
+   
+   
+    
+</body>
+</html>
