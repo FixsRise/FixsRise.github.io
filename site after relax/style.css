@@ -1,0 +1,182 @@
+body{
+    
+    
+    font-family: 'Roboto Slab', serif;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 0;
+    
+}
+
+*{
+    
+    box-sizing: border-box;
+}
+
+.wrapper{
+    
+    height: 100vh;
+    
+}
+
+a{
+    
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+    
+}
+
+a:hover{
+    
+    color: azure;
+    
+    
+}
+
+.clear{
+    
+    clear: both;
+    
+}
+
+.header{
+    
+    width: 100%;
+    height: 200px;
+    background: aqua;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header__logo{
+    
+    font-size: 55px;
+    margin-bottom: 5px;
+    
+}
+
+.header__text{
+    
+    font-size: 18px
+}
+
+.header__arrow{
+    
+    margin-top: 10px;
+    font-size: 40px;
+    
+}
+
+.leftcont{
+    
+    height: 600px;
+    width: 14%;
+    background: red;
+    border-radius: 15px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 100px;
+    
+}
+
+.rightcont{
+    
+    height: 600px;
+    width: 85%;
+    background: green;
+    border-radius: 15px;
+    float: right;
+    
+    
+}
+.cont__first{
+    
+    width: 22%;
+    background: cadetblue;
+    height: 540px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    float: left;
+    
+}
+
+
+.footer{
+    
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    background: pink;
+    border-radius: 15px;
+    
+}
+
+@media( max-width: 1160px ){
+    
+    
+    .header{
+        
+        height: 500px;
+        margin-top: 0;
+        margin-bottom: -10px;
+        
+    }
+    .leftcont{
+        
+        width: 100%;
+        height: 200px;
+        text-align: center; 
+        padding-top: 40px;
+    }
+    .leftcont a{
+        
+        
+        font-size: 30px;
+        margin-left: 25px;
+    }
+    
+    .leftcont a:last-child{
+        
+        margin-right: 20px;
+    }
+    
+    
+    
+    .rightcont{
+        
+        width: 100%;
+        height: 700px;
+        margin-bottom: -10px;
+    }
+    
+    .cont__first{
+        
+        width: 94%;
+        height: 120px;
+        margin-bottom: 23px;
+        
+    }
+    .footer{
+        
+        
+        height: 350px;
+        
+        
+    }
+    
+}
+
+
+
+
