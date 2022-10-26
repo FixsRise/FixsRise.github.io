@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  color: white;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__videos {
+  position: relative;
+  height: 750px;
+  background-color: white;
+  overflow: scroll;
+  width: 100%;
+  max-width: 400px;
+  scroll-snap-type: y mandatory;
+  border-radius: 20px;
+}
+
+.app__videos::-webkit-scrollbar {
+  display: none;
+}
+
+.app__videos {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  background-color: rgb(218, 218, 218);
+  height: 38px;
+  width: 100%;
+  align-items: center;
+
+}
+
+p {
+  color: black;
+  font-family: 'Roboto', sans-serif ;
+}
+
+
+.line {
+  border: none;
+  background-color: rgba(218, 18, 18, 0.942);
+  height: 3px;
+  width: 25px;
+  margin-bottom: 4px;
+}
+
+.line:last-child {
+  margin-bottom: 0px;
+}
+
+.header_btn-1 {
+  height: 25px;
+  width: 75px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_btn-2 {
+  height: 25px;
+  width: 75px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_a-1 {
+  color: red;
+  font-family: 'Roboto', sans-serif ;
+}
+
+.header_a-2 {
+  color: black;
+  font-family: 'Roboto', sans-serif ;
+}
+
+.header_a-3 {
+  color: rgb(0, 92, 146);
+  font-family: 'Roboto', sans-serif ;
+}
+
+.header_a-4 {
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif ;
+}
+
+.progress {
+  flex: 10;
+  position: relative;
+  top: 1px;
+  display: flex;
+  flex-basis: 100%;
+  height: 5px;
+  width: 100%;
+  right: -30px;
+  transition: height 0.3s;
+  background: rgba(0,0,0,0.5);
+  cursor: ew-resize;
+  margin: -30px;
+  
+}
+
+.progress__filled {
+  width: 0%;
+  background: #ffc600;
+  flex: 0;
+  flex-basis: 0%;
+}
+
+.videoSidebar {
+  position: absolute;
+  top: 46%;
+  right: 10px;
+}
+
+.videoSidebar .material-icons {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.videoSidebar__button {
+  padding: 1px;
+  text-align: center;
+}
+
+.videoFooter {
+  position: relative;
+  bottom: 150px;
+  margin-left: 20px;
+  color: white;
+  display: flex;
+}
+
+
+
+.fa_text {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 15px;
+  margin-top: 1px;
+}
+
+.footer_button {
+  text-decoration: none;
+  height: 40px;
+  width: 200px;
+  color: white;
+  font-family: 'Roboto';
+  background-color: #7A1A10;
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: .3s;
+
+}
+
+.footer_button:hover {
+  background-color: #7A1A10;
+  scale: 1.1;
+}
+
+
+.video {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  scroll-snap-align: start;
+}
+
+.video__player {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.videoSidebar {
+  position: absolute;
+  top: 46%;
+  right: 10px;
+}
+
+.videoSidebar .material-icons {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.videoSidebar__button {
+  padding: 20px;
+  text-align: center;
+  transition: .3s;
+}
+
+.toggle {
+  position: absolute;
+  top: 330px;
+  left: 185px;
+  font-size: 30px;
+}
+
+.videoSidebar__button:hover {
+  color: rgb(175, 175, 175);
+}
+
+.videoFooter {
+  position: relative;
+  bottom: 150px;
+  margin-left: 20px;
+  color: white;
+  display: flex;
+}
+
+@keyframes spinTheRecord {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.progressSecond {
+  flex: 10;
+  position: relative;
+  display: flex;
+  flex-basis: 100%;
+  height: 5px;
+  transition: height 0.3s;
+  background: rgba(0,0,0,0.5);
+  cursor: ew-resize;
+  top: -40px;
+}
+.progress__barSecond {
+  background: #ffc600;
+  height: inherit;
+  width: 0;
+}
+
+.vplayer__button {
+  position: absolute;
+  bottom: 330px;
+  left: 185px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.header2 {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+
+
